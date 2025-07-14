@@ -15,6 +15,12 @@
 <script setup lang="ts">
 import { useModal } from '@/composables/useModal'
 import BaseModal from '@/components/modal/BaseModal.vue'
+import { useToast } from '@/composables/useToast'
+
+const { showSuccess, showError } = useToast()
+
+// showSuccess('Berhasil disimpan!')
+showError('Terjadi kesalahan')
 
 const { isOpen, open, close } = useModal()
 </script>
