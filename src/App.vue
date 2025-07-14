@@ -1,8 +1,8 @@
 <script setup lang="ts">
 // import playground
-import ArticleList from './components/demo/ArticleList.vue';
+import ModalPlayground from './components/demo/ModalPlayground.vue';
 </script>
 
 <template>
-  <ArticleList />
+  <ModalPlayground />
 </template>
