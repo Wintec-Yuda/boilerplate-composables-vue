@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import BaseToast from '@/components/ui/BaseToast.vue'
-// import playground
-import ModalPlayground from './components/demo/ModalPlayground.vue';
+import DropZone from '@/components/demo/DropZone.vue'
+import DraggableList from '@/components/demo/DraggableList.vue'
+import KanbanBoard from '@/components/demo/KanbanBoard.vue'
+
 </script>
 
 <template>
-  <ModalPlayground />
-  <BaseToast />
+  <div class="bg-blue-100 min-h-screen p-4 space-y-8">
+    <DropZone />
+    <DraggableList />
+    <KanbanBoard />
+  </div>
 </template>
